@@ -1,22 +1,14 @@
-# Countdown Encryption
+# Encryption
 
 This project implements a very simple encryption and decryption mechanism using a shuffled key based on ASCII characters.
 
 ## Files
 
-- 
-
-countdown.py
-
-: The main script that handles encryption and decryption.
+-cypher.py : The main script that handles encryption and decryption.
 
 ## Usage
 
-1. Run the 
-
-countdown.py
-
- script.
+1. Run the countdown.py script.
 2. Enter the text you want to encrypt when prompted.
 3. The script will display the encrypted text.
 4. Enter the encrypted text to decrypt it.
@@ -26,9 +18,6 @@ countdown.py
 
 ```sh
 python countdown.py
-```
-
-```
 The text you want to encrypt: Hello, World!
 Encrypted text: <encrypted_text>
 The text you want to decypher: <encrypted_text>
@@ -37,16 +26,8 @@ Decrypted text: Hello, World!
 
 ## Functions
 
-- 
-
-encrypt(plain_text: str) -> str
-
-: Encrypts the given plain text using the shuffled key.
-- 
-
-decrypt(encrypted_text: str) -> str
-
-: Decrypts the given encrypted text using the shuffled key.
+- encrypt(plain_text: str) -> str: Encrypts the given plain text using the shuffled key.
+- decrypt(encrypted_text: str) -> str: Decrypts the given encrypted text using the shuffled key.
 
 ## Notes
 
